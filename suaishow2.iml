@@ -30,13 +30,13 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$USER_HOME$/Desktop/HTMLCSSJS/mysql-connector-java-5.1.42" />
+          <root url="file://$MODULE_DIR$/../../HTMLCSSJS/mysql-connector-java-5.1.42" />
         </CLASSES>
         <JAVADOC />
         <SOURCES>
-          <root url="file://$USER_HOME$/Desktop/HTMLCSSJS/mysql-connector-java-5.1.42/src" />
+          <root url="file://$MODULE_DIR$/../../HTMLCSSJS/mysql-connector-java-5.1.42/src" />
         </SOURCES>
-        <jarDirectory url="file://$USER_HOME$/Desktop/HTMLCSSJS/mysql-connector-java-5.1.42" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../HTMLCSSJS/mysql-connector-java-5.1.42" recursive="false" />
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -52,5 +52,20 @@
     </orderEntry>
     <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.0.1" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:5.1.36" level="project" />
+    <orderEntry type="library" name="org.jsoup:jsoup:1.11.1" level="application" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="jsoup-1.11.1-sources" level="application" />
   </component>
 </module>

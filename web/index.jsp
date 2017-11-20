@@ -82,11 +82,15 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#" data-nav-section="home"><span>Начало</span></a></li>
-            <li><a href="#" data-nav-section="about"><span>О нас</span></a></li>
 
-            <li><a href="cookie" data-nav-section="pricing"><span>Вход</span></a></li>
-            <li><a href="/registration.jsp" data-nav-section="press"><span>Регистрация</span></a></li>
+              <li><a href="/index?first=sex" data-nav-section="pricing"><span>18+</span></a></li>
+            <li><a href="/index?first=pr" data-nav-section="press"><span>/pr</span></a></li>
+
+            <li><a href="/index?first=b" data-nav-section="press"><span>/b</span></a></li>
+            <li><a onclick="soundClick()" data-nav-section="about"><span>ЭЩКЕРЕ</span></a></li>
+
+
+
           </ul>
         </div>
       </nav>
@@ -97,54 +101,57 @@
   <div id="slider" data-section="home">
     <div class="owl-carousel owl-carousel-fullwidth">
       <!-- You may change the background color here. -->
-      <div class="item" style="background-image:url(crew/images/slide_3.jpg)">
+      <div class="item" style="background-image:url(https://2ch.hk${test} )">
+        <div class="overlay"></div>
         <div class="container" style="position: relative;">
           <div class="row">
             <div class="col-md-7 col-sm-7">
               <div class="fh5co-owl-text-wrap">
                 <div class="fh5co-owl-text">
-                  <h1 class="fh5co-lead to-animate">Звуковое обеспечение мероприятий</h1>
-                  <h2 class="fh5co-sub-lead to-animate">Мороз тащит и без вопросов <a href="http://vk.com/id258637261" target="_blank">Лучший звуковик</a></h2>
+                  <h1 class="fh5co-lead to-animate"></h1>
+
+                  <h2 class="fh5co-sub-lead to-animate"></h2>
 
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">
-              <div class="iphone to-animate-2"><img src="crew/images/iphone-2.png" alt=""></div>
-            </div>
+            <%--<div class="col-md-4 col-md-push-1 col-sm-4 col-sm-push-1 iphone-image">--%>
+              <%--<div class="iphone to-animate-2"><img src="https://2ch.hk${test}" alt=""></div>--%>
+            <%--</div>--%>
 
           </div>
         </div>
       </div>
       <!-- You may change the background color here.  -->
-      <div class="item" style="background-image:url(crew/images/slide_4.jpg)">
+      <div class="item" style="background-image:url(https://2ch.hk${test1})">
+        <div class="overlay"></div>
         <div class="container" style="position: relative;">
           <div class="row">
             <div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
               <div class="fh5co-owl-text-wrap">
                 <div class="fh5co-owl-text">
-                  <h1 class="fh5co-lead to-animate">Хоть свадьбу вам забацаем</h1>
-                  <h2 class="fh5co-sub-lead to-animate">Тащим любое мероприятие, лажаем тоже, но не часто(часто)
+                  <h1 class="fh5co-lead to-animate"></h1>
+                  <%--<h2 class="fh5co-sub-lead to-animate">--%>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">
-              <div class="iphone to-animate-2"><img src="images/iphone-1.png" alt=""></div>
-            </div>
+            <%--<div class="col-md-4 col-md-pull-7 col-sm-4 col-sm-pull-7 iphone-image">--%>
+              <%--<div class="iphone to-animate-2"><img src="https://2ch.hk${test}" alt=""></div>--%>
+            <%--</div>--%>
 
           </div>
         </div>
       </div>
 
-      <div class="item" style="background-image:url(crew/images/slide_5.jpg)">
+      <div class="item" style="background-image:url(https://2ch.hk${test2})">
         <div class="overlay"></div>
         <div class="container" style="position: relative;">
           <div class="row">
             <div class="col-md-8 col-md-offset-2 text-center">
               <div class="fh5co-owl-text-wrap">
                 <div class="fh5co-owl-text">
-                  <h1 class="fh5co-lead to-animate">Короче заебурим все по красоте</h1>
-                  <h2 class="fh5co-sub-lead to-animate">Зовите нас и будет пЕсос как пЕздато</h2>
+                  <h1 class="fh5co-lead to-animate"></h1>
+                  <h2 class="fh5co-sub-lead to-animate"></h2>
                 </div>
               </div>
             </div>
@@ -155,98 +162,87 @@
     </div>
   </div>
 
-  <div id="fh5co-about-us" data-section="about">
-    <div class="container">
-      <div class="row row-bottom-padded-lg" id="about-us">
-        <div class="col-md-12 section-heading text-center">
-          <h2 class="to-animate">О нас</h2>
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2 to-animate">
-              <h3> Мы короче норм мероприятия  делаем.</h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8 to-animate">
-          <img src="crew/images/team.jpg" class="img-responsive img-rounded" alt="Free HTML5 Template">
-        </div>
-        <div class="col-md-4 to-animate">
-          <h2>Что мы делаем?</h2>
-          <p>Витя покупает люстры, мороз хуярит хардкор, Алина светит люстрой в ебло.. Если ты свой - регайся и погнали</p>
-          <p><a href="#team" class="btn btn-primary">Наша команда</a></p>
-        </div>
-      </div>
-      <div class="row" id="team">
-        <div class="col-md-12 section-heading text-center to-animate">
-          <h2>Команда</h2>
-        </div>
-        <div class="col-md-12">
-          <div class="row row-bottom-padded-lg">
-            <div class="col-md-4 text-center to-animate">
-              <div class="person">
-                <img src="crew/images/1.jpg" class="img-responsive img-rounded" alt="Person">
-                <h3 class="name">Алина Птушкина</h3>
-                <div class="position">Световик</div>
-                <p>Светить в ебло - мое кредо!</p>
-                <ul class="social social-circle">
-                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+  <%--<div id="fh5co-about-us" data-section="about">--%>
+    <%--<div class="container">--%>
+      <%--<div class="row row-bottom-padded-lg" id="about-us">--%>
+        <%--<div class="col-md-12 section-heading text-center">--%>
+          <%--<h2 class="to-animate">О нас</h2>--%>
+          <%--<div class="row">--%>
+            <%--<div class="col-md-8 col-md-offset-2 to-animate">--%>
+              <%--<h3> Мы короче норм мероприятия  делаем.</h3>--%>
+            <%--</div>--%>
+          <%--</div>--%>
+        <%--</div>--%>
+        <%--<div class="col-md-8 to-animate">--%>
+          <%--<img src="https://2ch.hk${test}" class="img-responsive img-rounded" alt="Free HTML5 Template">--%>
+        <%--</div>--%>
+        <%--<div class="col-md-4 to-animate">--%>
+          <%--<h2>Что мы делаем?</h2>--%>
+          <%--<p>Витя покупает люстры, мороз хуярит хардкор, Алина светит люстрой в ебло.. Если ты свой - регайся и погнали</p>--%>
+          <%--<p><a href="#team" class="btn btn-primary">Наша команда</a></p>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+      <%--<div class="row" id="team">--%>
+        <%--<div class="col-md-12 section-heading text-center to-animate">--%>
+          <%--<h2>Команда</h2>--%>
+        <%--</div>--%>
+        <%--<div class="col-md-12">--%>
+          <%--<div class="row row-bottom-padded-lg">--%>
+            <%--<div class="col-md-4 text-center to-animate">--%>
+              <%--<div class="person">--%>
+                <%--<img src="https://2ch.hk${test}" class="img-responsive img-rounded" alt="Person">--%>
+                <%--<h3 class="name">Алина Птушкина</h3>--%>
+                <%--<div class="position">Световик</div>--%>
+                <%--<p>Светить в ебло - мое кредо!</p>--%>
+                <%--<ul class="social social-circle">--%>
+                  <%--<li><a href="#"><i class="icon-twitter"></i></a></li>--%>
 
-                  <li><a href="#"><i class="icon-instagram"></i></a></li>
+                  <%--<li><a href="#"><i class="icon-instagram"></i></a></li>--%>
 
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-4 text-center to-animate">
-              <div class="person">
-                <img src="crew/images/2.jpg" class="img-responsive img-rounded" alt="Person">
-                <h3 class="name">Саня Мороз</h3>
-                <div class="position">Звуковик</div>
-                <p>Ебашу хардкор!</p>
-                <ul class="social social-circle">
+                <%--</ul>--%>
+              <%--</div>--%>
+            <%--</div>--%>
+            <%--<div class="col-md-4 text-center to-animate">--%>
+              <%--<div class="person">--%>
+                <%--<img src="crew/images/2.jpg" class="img-responsive img-rounded" alt="Person">--%>
+                <%--<h3 class="name">Саня Мороз</h3>--%>
+                <%--<div class="position">Звуковик</div>--%>
+                <%--<p>Ебашу хардкор!</p>--%>
+                <%--<ul class="social social-circle">--%>
 
-                  <li><a href="#"><i class="icon-instagram"></i></a></li>
+                  <%--<li><a href="#"><i class="icon-instagram"></i></a></li>--%>
 
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-4 text-center to-animate">
-              <div class="person">
-                <img src="crew/images/3.jpg" class="img-responsive img-rounded" alt="Person">
-                <h3 class="name">Витя Шуляк</h3>
-                <div class="position">Световик</div>
-                <p>Покупаю люстры</p>
-                <ul class="social social-circle">
+                <%--</ul>--%>
+              <%--</div>--%>
+            <%--</div>--%>
+            <%--<div class="col-md-4 text-center to-animate">--%>
+              <%--<div class="person">--%>
+                <%--<img src="crew/images/3.jpg" class="img-responsive img-rounded" alt="Person">--%>
+                <%--<h3 class="name">Витя Шуляк</h3>--%>
+                <%--<div class="position">Световик</div>--%>
+                <%--<p>Покупаю люстры</p>--%>
+                <%--<ul class="social social-circle">--%>
 
-                  <li><a href="#"><i class="icon-instagram"></i></a></li>
-                  <li><a href="#"><i class="icon-github"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+                  <%--<li><a href="#"><i class="icon-instagram"></i></a></li>--%>
+                  <%--<li><a href="#"><i class="icon-github"></i></a></li>--%>
+                <%--</ul>--%>
+              <%--</div>--%>
+            <%--</div>--%>
+          <%--</div>--%>
+        <%--</div>--%>
+      <%--</div>--%>
+    <%--</div>--%>
+  <%--</div>--%>
 
   <footer id="footer" role="contentinfo">
-    <div class="container">
-      <div class="row row-bottom-padded-sm">
-        <div class="col-md-12">
-          <p class="copyright text-center">&copy; 2017 SUAI. All Rights Reserved. <br><a href="http://vk.com/id9682260" target="_blank">Sklyarov</a> </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <ul class="social social-circle">
 
-            <li><a href="#"><i class="icon-youtube"></i></a></li>
 
-            <li><a href="#"><i class="icon-instagram"></i></a></li>
 
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+          <p class="copyright text-center">&copy; 2017 SUAI. <s>All Rights </s>Ни*уя не Reserved. <br><a href="http://vk.com/id9682260" target="_blank">Sklyarov</a> </p>
+
+      </footer>
+
+
 
 
 
@@ -264,6 +260,7 @@
 
   <!-- Main JS (Do not remove) -->
   <script src="crew/js/main.js"></script>
+  <script src="crew/js/music.js"></script>
 
   </body>
 </html>
